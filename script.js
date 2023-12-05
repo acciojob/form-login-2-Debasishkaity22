@@ -3,10 +3,10 @@ let de=document.querySelector("#form-info");
 
 function deba(){
    let debasish={
-    first:"Firs Name:"+de.firstname.value,
-    last:"Lastst Name:"+de.lastname.value,
-    phone:"PhoneNumber:"+de.phoneno.value,
-    Email:"Email ID:"+de.emailid.value
+    first:"First Name:"+document.getElementById("name1").value,
+    last:"Lastst Name:"+document.getElementById("name2").value,
+    phone:"PhoneNumber:"+document.getElementById("name3").value,
+    Email:"Email ID:"+document.getElementById("name4").value,
    }
 	let txt="";
    for(let x in debasish){
