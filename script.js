@@ -8,5 +8,9 @@ function deba(){
     phone:"PhoneNumber:"+de.phoneno.value,
     Email:"Email ID:"+de.emailid.value
    }
-  alert(Object.values(debasish));
+	let txt="";
+   for(let x in debasish){
+    txt+=debasish[x]+"\n";
+   }
+  alert(txt);
 }
